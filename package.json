@@ -1,0 +1,10 @@
+{
+  "name": "expo-cameraroll",
+  "version": "0.0.1",
+  "description": "A drop-in replacement for react-native-cameraroll that leverages Expo's MediaLibrary API.",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "expo-media-library": "*"
+  }
+}
