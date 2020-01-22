@@ -7,3 +7,7 @@ This library implements the React Native [CameraRoll](https://github.com/react-n
 ```bash
 expo add expo-media-library expo-cameraroll
 ```
+
+### Limitations
+
+Currently only the `getPhotos` API is supported.
