@@ -8,6 +8,10 @@ This library implements the React Native [CameraRoll](https://github.com/react-n
 expo add expo-media-library expo-cameraroll
 ```
 
+### Usage
+
+See https://github.com/react-native-community/react-native-cameraroll
+
 ### Limitations
 
-Currently only the `getPhotos` API is supported.
+Some of the more obscure parameters couldn't be mapped over easily, such as asset group names/types. Check [`index.js`](index.js) to see exactly which parameters are used.
