@@ -24,7 +24,7 @@ export default {
       mediaType: params.assetType
     };
 
-    const results = await MediaLibrary.getAssetsAsync(params);
+    const results = await MediaLibrary.getAssetsAsync(mediaLibraryParams);
 
     results.assets.forEach(asset => {
       this._store[asset.uri] = asset;
