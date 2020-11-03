@@ -95,4 +95,12 @@ export default {
   async saveToCameraRoll(tag, type) {
     return this.save(tag, { type })
   },
+  
+  /**
+	 * Requests permission to access media library.
+	 */
+	async requestPermissionsAsync() {
+		return MediaLibrary.requestPermissionsAsync();
+	},
+
 }
